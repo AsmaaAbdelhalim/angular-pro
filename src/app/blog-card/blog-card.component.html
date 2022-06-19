@@ -1,0 +1,8 @@
+<p><div class="card h-100">
+    <img [src]="blogItem.image_url" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">{{blogItem.name}}</h5>
+      <p class="card-text">{{blogItem.price}}</p>
+    </div>
+    <button class="btn btn-info" [routerLink]="['blog-details',blogItem.id]"> Go To Details </button> 
+  </div>

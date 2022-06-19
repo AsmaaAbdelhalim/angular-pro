@@ -1,0 +1,11 @@
+.nav-item a{
+    color: rgb(255, 255, 255) ;
+    text-decoration: none;
+    font-size: large;
+    margin-left: 15px;
+
+ }
+ .nav-item a:hover{
+     text-decoration:underline;
+     text-decoration-color:rgb(238, 208, 241) ;
+ }
