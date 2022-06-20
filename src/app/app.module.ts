@@ -15,6 +15,7 @@ import { BlogListComponent } from './blog-list/blog-list.component';
 import { BlogCardComponent } from './blog-card/blog-card.component';
 import { BlogDetailsComponent } from './blog-details/blog-details.component';
 import { HttpClientModule } from '@angular/common/http';
+import { ProductCardComponent } from './product-card/product-card.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { HttpClientModule } from '@angular/common/http';
     CategoryComponent,
     BlogListComponent,
     BlogCardComponent,
-    BlogDetailsComponent
+    BlogDetailsComponent,
+    ProductCardComponent
   ],
   imports: [
     BrowserModule,

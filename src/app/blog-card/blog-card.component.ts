@@ -29,7 +29,4 @@ export class BlogCardComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  goToDetails(id:any){
-    this.router.navigate(["blogs/blog-details", id]);
-  }
 }
