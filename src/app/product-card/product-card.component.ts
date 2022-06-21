@@ -1,13 +1,15 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { Router } from '@angular/router';
+
 @Component({
   selector: 'app-product-card',
   templateUrl: './product-card.component.html',
   styleUrls: ['./product-card.component.css']
 })
-export class ProductCardComponent implements OnInit {
+export class ProductCardComponent implements 
+OnInit {
 
-  product: any = {
+  @Input() productItem: any = {
     id: 0,
       title: "",
       link: "",

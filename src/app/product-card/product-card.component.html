@@ -1,9 +1,9 @@
 <div class="card h-100">
-    <img [src]="product.image_url" class="card-img-top" alt="...">
+    <img [src]="productItem.image_url" class="card-img-top" alt="...">
     <div class="card-body">
-      <h5 class="card-title">{{product.name}}</h5>
-      <p class="card-text">{{product.price}}</p>
+      <h5 class="card-title">{{productItem.name}}</h5>
+      <p class="card-text">{{productItem.price}}</p>
     </div>
-    <button class="btn btn-info" [routerLink]="['/product',product._id]"> Go To Details </button> 
+    <button class="btn btn-info" [routerLink]="['/product', productItem._id]"> Go To Product </button> 
   </div>
 

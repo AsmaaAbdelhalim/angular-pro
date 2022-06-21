@@ -13,14 +13,15 @@ import { BlogListComponent } from './blog-list/blog-list.component';
 const routes: Routes = [
     {path: "blogs", children: [
       {path: "", component: BlogListComponent},
-      //{path: "blog-details/:id", component: BlogDetailsComponent}
+      //{path: "blog-details/:id", component: BlogDetailsComponent}  
     ]},
+    
     {path: "product-details/:id", component: BlogDetailsComponent},
   {path: "home",component:HomeComponent},
   {path: "login",component:LoginComponent},
   {path: "register",component:RegisterComponent},
   { path: "portfolio", component:PortfolioComponent  },
-  { path: "category", component:CategoryComponent },
+  { path: "product", component:CategoryComponent },
   {path:"**",component:NotfoundComponent},
 
 ];
