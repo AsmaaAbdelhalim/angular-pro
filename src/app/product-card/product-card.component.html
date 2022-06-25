@@ -3,7 +3,9 @@
     <div class="card-body">
       <h5 class="card-title">{{productItem.name}}</h5>
       <p class="card-text">{{productItem.price}}</p>
+  </div> 
+    <button class="btn btn-info" [routerLink]="['/category', productItem._id]"> Go To Product </button>
     </div>
-    <button class="btn btn-info" [routerLink]="['/product', productItem._id]"> Go To Product </button> 
-  </div>
+    
 
+  

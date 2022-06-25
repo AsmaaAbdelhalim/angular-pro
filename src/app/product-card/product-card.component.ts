@@ -18,16 +18,20 @@ OnInit {
       description: "",
       full_description: "",
       pubDate: "",
-      image_url: "",
+      image: "",
       country: [""],
       category: [""],
       language: ""
     }
   
-  constructor(private router: Router) { }
+  constructor(private router: Router) {
 
+ 
+  }
   ngOnInit(): void {
+   
     
   }
-
+ // this.productItemByID = this.product.filterSelection(
+    //   Item => Item.product_id === this.product.id)
 }

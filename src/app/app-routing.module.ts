@@ -8,7 +8,7 @@ import { PortfolioComponent } from './portfolio/portfolio.component';
 import { RegisterComponent } from './register/register.component';
 import { BlogDetailsComponent } from './blog-details/blog-details.component';
 import { BlogListComponent } from './blog-list/blog-list.component';
-
+import { ProductComponent } from './product/product.component';
 
 const routes: Routes = [
     {path: "blogs", children: [
@@ -22,7 +22,8 @@ const routes: Routes = [
   {path: "register",component:RegisterComponent},
   { path: "portfolio", component:PortfolioComponent  },
   { path: "product", component:CategoryComponent },
-  {path:"**",component:NotfoundComponent},
+  // {path: "**",component:NotfoundComponent},
+  {path: "category/:id", component:ProductComponent}
 
 ];
 

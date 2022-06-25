@@ -1,0 +1,9 @@
+<div id="searchWrapper">
+  <input type="text" id ="searchBar" name="searchBar" id="searchBar" placeholder="search for a character" (keydown)="search()" />
+</div>
+
+<div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="col" *ngFor="let blog of cats">
+    <app-blog-card [blogItem]="blog"> </app-blog-card>
+  </div>
+</div>
