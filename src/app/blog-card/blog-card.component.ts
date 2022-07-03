@@ -17,7 +17,7 @@ export class BlogCardComponent implements OnInit {
     description: "",
     full_description: "",
     pubDate: "",
-    image_url: "",
+    image: "",
     country: [""],
     category: [""],
     language: ""
